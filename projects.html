@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Ria Gersappe</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">RG.</a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="index.html#experience">Experience</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- PAGE INTRODUCTION -->
+        <section class="page-header">
+
+            <p class="eyebrow">MY TECHNICAL & PERSONAL WORK</p>
+
+            <h1>
+                Featured <span class="accent">Projects.</span>
+            </h1>
+
+            <p class="hero-description">
+                A closer look at three projects that
+                reflect my interests in software
+                development, financial technology,
+                and community leadership. Each has
+                challenged me in different ways,
+                whether that means designing an
+                application, analyzing financial
+                information, or organizing an
+                initiative that serves others.
+            </p>
+
+        </section>
+
+
+        <!-- PROJECT 1 -->
+        <section id="study-scheduler"
+                 class="section project-section">
+
+            <p class="section-label">
+                PROJECT 01 / IOS DEVELOPMENT
+            </p>
+
+            <h2>Smart Study Scheduler</h2>
+
+            <p class="project-subtitle">
+                Personalized Academic Planning Application
+            </p>
+
+            <div class="tech-tags">
+                <span>Swift</span>
+                <span>SwiftUI</span>
+                <span>Apple HealthKit</span>
+                <span>iOS Development</span>
+            </div>
+
+            <div class="project-details">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    Smart Study Scheduler is an iOS
+                    application I'm developing to make
+                    academic planning more personalized
+                    and realistic. Most traditional
+                    planners focus on deadlines and
+                    available time, but they don't
+                    necessarily account for factors
+                    that can affect productivity.
+
+                    I wanted to explore how information
+                    such as sleep patterns, workload,
+                    and availability could be used to
+                    create a more useful study schedule.
+                </p>
+
+                <h3>Technical Implementation</h3>
+
+                <p>
+                    I'm building the application using
+                    Swift and SwiftUI. Users can enter
+                    assignments, deadlines, and available
+                    study hours, which serve as inputs
+                    to the scheduling system.
+
+                    I developed scheduling logic that
+                    determines how much time is available
+                    for different tasks and distributes
+                    study sessions across the user's
+                    schedule.
+                </p>
+
+                <p>
+                    The project also explores integration
+                    with Apple HealthKit to incorporate
+                    sleep information into scheduling
+                    decisions. Rather than simply
+                    displaying health data, the goal
+                    is to use that information as
+                    another factor in determining when
+                    and how long a user should study.
+                </p>
+
+                <h3>Key Features</h3>
+
+                <ul class="project-list">
+                    <li>
+                        Assignment and deadline management
+                    </li>
+                    <li>
+                        Personalized study session scheduling
+                    </li>
+                    <li>
+                        Apple HealthKit sleep data integration
+                    </li>
+                    <li>
+                        SwiftUI-based user interface
+                    </li>
+                    <li>
+                        Exploration of Screen Time
+                        functionality for a future Study Mode
+                    </li>
+                </ul>
+
+                <h3>What I've Learned</h3>
+
+                <p>
+                    This project has helped me better
+                    understand iOS development and
+                    how to design applications that
+                    combine different sources of data.
+
+                    One of the most interesting challenges
+                    has been thinking through how a
+                    scheduling algorithm should balance
+                    deadlines, user availability, and
+                    personal habits without making
+                    the schedule too rigid.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT 2 -->
+        <section id="quant-trading"
+                 class="section project-section">
+
+            <p class="section-label">
+                PROJECT 02 / FINANCIAL TECHNOLOGY
+            </p>
+
+            <h2>Quant News Trading</h2>
+
+            <p class="project-subtitle">
+                Financial News Sentiment & Trading Signal Analysis
+            </p>
+
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>FinBERT</span>
+                <span>Finnhub</span>
+                <span>yfinance</span>
+                <span>Data Analysis</span>
+            </div>
+
+            <div class="project-details">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    Quant News Trading is a personal
+                    project exploring how financial news
+                    can be analyzed to identify potential
+                    trading signals.
+
+                    Financial markets react to a wide
+                    variety of information, including
+                    company announcements, industry
+                    developments, and broader economic
+                    events. I wanted to investigate
+                    how natural language processing
+                    could help organize this information
+                    into measurable signals.
+                </p>
+
+                <h3>Technical Approach</h3>
+
+                <p>
+                    The project is being developed in
+                    Python and is designed around a
+                    pipeline that collects financial
+                    news articles, analyzes their
+                    sentiment, and evaluates how
+                    relevant each article is to
+                    a particular company.
+                </p>
+
+                <p>
+                    I'm exploring the use of FinBERT,
+                    a natural language processing model
+                    trained on financial text, to
+                    classify articles based on
+                    positive, negative, or neutral
+                    sentiment.
+
+                    The project also considers article
+                    relevance, since news directly
+                    related to a company's earnings
+                    may be more useful than general
+                    market commentary.
+                </p>
+
+                <p>
+                    The planned scoring system combines
+                    sentiment and relevance across
+                    multiple articles within a selected
+                    time window. These scores can then
+                    be aggregated into potential buy,
+                    sell, or hold signals.
+                </p>
+
+                <h3>Market Data & Evaluation</h3>
+
+                <p>
+                    Another component of the project
+                    involves using historical stock
+                    price data from yfinance to
+                    evaluate how generated signals
+                    relate to subsequent market
+                    movements.
+
+                    This is important because a
+                    sentiment score alone doesn't
+                    demonstrate whether a trading
+                    strategy is effective. Historical
+                    data can help assess the
+                    relationship between news
+                    sentiment and actual price changes.
+                </p>
+
+                <h3>Key Components</h3>
+
+                <ul class="project-list">
+                    <li>
+                        Financial news collection
+                        using API-based data sources
+                    </li>
+                    <li>
+                        Sentiment analysis using FinBERT
+                    </li>
+                    <li>
+                        Company and industry relevance scoring
+                    </li>
+                    <li>
+                        Aggregation of article-level signals
+                    </li>
+                    <li>
+                        Historical stock price analysis
+                        using yfinance
+                    </li>
+                    <li>
+                        Exploration of future machine
+                        learning improvements
+                    </li>
+                </ul>
+
+                <h3>What I've Learned</h3>
+
+                <p>
+                    This project has allowed me to
+                    combine my interests in computer
+                    science, mathematics, and finance.
+
+                    I've been especially interested
+                    in the challenge of translating
+                    qualitative information, such
+                    as a news article, into a
+                    quantitative score that can
+                    be evaluated against market data.
+
+                    It has also made me think more
+                    carefully about the limitations
+                    of sentiment analysis and the
+                    importance of validating a
+                    strategy rather than relying
+                    only on a model's predictions.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT 3 -->
+        <section id="rainydaychefs"
+                 class="section project-section">
+
+            <p class="section-label">
+                PROJECT 03 / COMMUNITY LEADERSHIP
+            </p>
+
+            <h2>RainyDayChefs</h2>
+
+            <p class="project-subtitle">
+                Youth-Led Nonprofit & Community Initiative
+            </p>
+
+            <div class="tech-tags">
+                <span>Leadership</span>
+                <span>Community Service</span>
+                <span>Operations</span>
+                <span>Fundraising</span>
+            </div>
+
+            <div class="project-details">
+
+                <div class="rdc-image">
+                    <img src="images/rdc.png"
+                         alt="RainyDayChefs preparing and serving meals">
+                </div>
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    I founded RainyDayChefs in 2017
+                    with the goal of bringing people
+                    together through cooking and
+                    community service. What started
+                    as a small youth-led initiative
+                    grew into an organization focused
+                    on preparing and distributing
+                    meals to communities in need.
+                </p>
+
+                <p>
+                    Over the years, RainyDayChefs has
+                    provided more than 5,000
+                    three-course meals. The initiative
+                    has involved coordinating
+                    volunteers, planning menus,
+                    organizing fundraising events,
+                    and working with community
+                    organizations to distribute meals.
+                </p>
+
+                <h3>Growth & Adaptation</h3>
+
+                <p>
+                    One of the biggest challenges
+                    came during the COVID-19 pandemic,
+                    when our usual in-person cooking
+                    and meal preparation activities
+                    became difficult to continue.
+
+                    We adapted by creating cooking
+                    videos and virtual classes to
+                    stay connected with our community.
+                    As in-person activities resumed,
+                    we returned to meal preparation
+                    and expanded our outreach.
+                </p>
+
+                <h3>Key Responsibilities</h3>
+
+                <ul class="project-list">
+                    <li>
+                        Coordinating volunteer teams
+                        and community events
+                    </li>
+                    <li>
+                        Organizing meal preparation
+                        and distribution
+                    </li>
+                    <li>
+                        Planning fundraising initiatives
+                    </li>
+                    <li>
+                        Building partnerships with
+                        community organizations
+                    </li>
+                    <li>
+                        Adapting operations during
+                        the COVID-19 pandemic
+                    </li>
+                </ul>
+
+                <h3>What I've Learned</h3>
+
+                <p>
+                    RainyDayChefs has been one of the
+                    most meaningful projects I've
+                    worked on because it has allowed
+                    me to see the direct impact of
+                    something I helped build.
+
+                    Running the organization has
+                    taught me how to take ownership
+                    of a long-term initiative,
+                    coordinate different people
+                    and responsibilities, and
+                    adapt when plans change.
+
+                    These are skills I've also
+                    carried into my technical
+                    projects and professional work.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- D3 VISUALIZATION -->
+        <section class="section visualization-section">
+
+            <p class="section-label">DATA VISUALIZATION</p>
+
+            <h2>My Technical Skills in Practice</h2>
+
+            <p>
+                This interactive visualization explores the
+                programming languages I've used across my
+                internships, coursework, and personal projects.
+                Use the filters to compare professional
+                experience with academic and personal work,
+                and hover over each bar to see where I've
+                applied each language.
+            </p>
+
+            <div id="d3-chart"></div>
+
+        </section>
+
+
+        <!-- BOTTOM NAVIGATION -->
+        <section class="section contact">
+
+            <h2>Want to Learn More?</h2>
+
+            <p>
+                Explore my background, professional
+                experience, and technical skills
+                on the home page.
+            </p>
+
+            <a href="index.html" class="btn primary">
+                Back to Home
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Ria Gersappe. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
